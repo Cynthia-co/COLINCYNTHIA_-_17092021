@@ -8,12 +8,12 @@ fetch(url)
     
 function getCamera() {
    
-  for (let i=0; i < data.length; i++){
-      let name = camera.name;
-      let imageUrl = camera.imageUrl;
-      let description = camera.description;
-      let price = camera.price;
-      let id  = camera._id;
+  for (let i=0; i < 5; i++){
+      let name = i.name;
+      let imageUrl = i.imageUrl;
+      let description = i.description;
+      let price = i.price;
+      let id  = i._id;
 
       let card =
       `<div class="card">
