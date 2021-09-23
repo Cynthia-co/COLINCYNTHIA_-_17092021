@@ -6,96 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <title>Orinoco</title>
 </head>
 <body>
 
 <header>
-    <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Accueil</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Produits</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Camera 1</a>
-            <a class="dropdown-item" href="#">Camera 2</a>
-            <a class="dropdown-item" href="#">Camera 3</a>
-            <a class="dropdown-item" href="#">Camera 4</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Produit</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Panier</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Confirmation de commande</a>
-          </li>
-      </ul>
-</header>
-    
-<div class="card-group">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="../backend/images/logo-orinoco.png"alt="" width="200" height="84">
+      </a>
+    </div> 
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">Accueil</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="pages/panier.html"><i class="fas fa-shopping-cart"></i>Panier</a>
+    </li>
+  </nav>
+  
+   </header>
+ <main>
+   <h2>NOS PRODUITS </h2>
+
+</main>   
 <footer>
-    <ul class="nav flex-column">
-         <li class="nav-item">
-          <a class="nav-link disabled">Orinoco</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Twitter</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Facebook</a>
-        </li>
-       
-      </ul>
+  <a class="nav-link disabled"> <img src="../backend/images/logo-orinoco.png"alt="" width="90" height="34"></a>
+  <nav class="nav">
+    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+    <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+    <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+    <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+  </nav>
 </footer>
 
 <script src="./js/index.js"></script>
