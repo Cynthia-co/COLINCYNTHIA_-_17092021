@@ -1,17 +1,19 @@
 let url = `http://localhost:3000/api/cameras`;
-let data = 
+let camera;
 
-function getCamera(){
+
 fetch(url)
     .then ((response) => 
         response.json().then((data) => console.log(data)));
-    .then ((data) ==>
+    
+function getCamera() {
+   
   for (let i=0; i < data.length; i++){
-      let name = data[i].name;
-      let imageUrl = data[i].imageUrl;
-      let description = data[i].description;
-      let price = data[i].price;
-      let id  = data[i]._id;
+      let name = camera.name;
+      let imageUrl = camera.imageUrl;
+      let description = camera.description;
+      let price = camera.price;
+      let id  = camera._id;
 
       let card =
       `<div class="card">
