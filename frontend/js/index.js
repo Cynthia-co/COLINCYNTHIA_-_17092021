@@ -26,10 +26,9 @@ function getCamera() {
     </div>`
 
     document.querySelector('main').innerHtml += card;
-    
+    getCamera();
  }
 //  .catch(function(error) {
 //   console.log(error);}
  }
 
-getCamera();
