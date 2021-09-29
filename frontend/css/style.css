@@ -1,9 +1,42 @@
 body{
     background-color: #f1f1f1;
+    font-family:Poppins, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 li{
     list-style: none;
 }
+.fas{
+    padding-right: 10px;
+}
 h2{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.main__card{
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px;
+    margin-right: 0;
+}
+
+.border{
+    padding: 20px;
+    font-weight: bolder;
+}
+.card-img-top{
+    width: 60%;
+    height: auto;
+    border-radius: 60%;
+}
+
+p{
+    color : rgb(151, 95, 228)
 }
